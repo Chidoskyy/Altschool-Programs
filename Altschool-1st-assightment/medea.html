@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="media.css">
+    <title>media</title>
+</head>
+<body>
+    <header>
+        <h1>Collection of my pictures and videos</h1>
+    </header>
+    
+    <main>
+        <picture>
+            <!-- Image for screens up to 400px wide -->
+            <source srcset="./multimedea/my-wears.jpg" media="(max-width: 400px)">
+    
+            <!-- Image for screens between 401px and 800px wide -->
+            <source srcset="./multimedea/my-dream-car.jpg" media="(min-width: 401px) and (max-width: 800px)">
+    
+            <!-- Image for screens between 801px and 1200px wide -->
+            <source srcset="./multimedea/nice-weekend.jpg" media="(min-width: 801px) and (max-width: 1200px)">
+    
+            <!-- Image for screens wider than 1200px -->
+            <source srcset="./multimedea/hey-there.jpg" width="1000" height="1000" media="(max-width: 1201px)">
+    
+            <!-- Fallback image -->
+            <img src="multimedea/Snapchat-299057570.jpg" width="300" height="500" alt="my snapchat picture">
+        </picture>
+        <figure>
+            <!-- Images -->
+            <img src="./multimedea/hey-there.jpg" width="500" height="700" alt=" my picture">
+            <img src="./multimedea/IMG20231022080326.jpg" width="500" height="700" alt="My image">
+            <img src="./multimedea/My-dream-car.jpg" width="500" height="700" alt="my car">
+            <img src="./multimedea/my-wears.jpg" width="500" height="700" alt="clothes">
+    
+            <!-- Videos -->
+            <video controls width="500" height="300">
+                <source src="./multimedea/5487afa5bef6fb8d8390e422a13edece.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+    
+            <video controls width="500" height="300">
+                <source src="./multimedea/lovesong.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+           
+            <video controls width="500" height="300">
+                <source src="./multimedea/memories.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            
+            <video controls width="500" height="300">
+                <source src="./multimedea/beast.MP4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+           
+            <video controls width="500" height="300">
+                <source src="./multimedea/truth.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            
+    
+            <!-- Caption for the figure -->
+            <figcaption>A collection of meadia elements.</figcaption>
+        </figure>
+    </main>
+    <div>
+        <a href="table.html">Previous Page</a>
+        <a href="index.html">First Page</a>
+    </div>
+    
+    
+</body>
+</html>
